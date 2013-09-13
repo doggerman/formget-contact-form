@@ -23,10 +23,10 @@ function cf_menu_page() {
     add_menu_page('cf', 'Contact Form', 'manage_options', 'cf_page', 'cf_setting_page', plugins_url( 'image/favicon.ico', __FILE__ ), '109');
 }
 function cf_setting_page() {?>
- <div class="container" id="container">
+ <div class="fg_container" id="fg_container">
         <ul id="tabs">
-            <li class="goto_fg_advance_form" id="goto_fg_advance_form" cursor="pointer">Contact Form Builder</li>
-            <li class="embed_advance_form" id="embed_advance_form" cursor="pointer">Embed Code</li>
+            <li class="fg_goto_fg_advance_form" id="fg_goto_fg_advance_form" cursor="pointer">Contact Form Builder</li>
+            <li class="fg_embed_advance_form" id="fg_embed_advance_form" cursor="pointer">Embed Code</li>
         </ul>
      </div><br /><br /><br />
     <div id="ifrme_division" class="iframe_division" >
@@ -48,7 +48,7 @@ function cf_setting_page() {?>
 </p>
 </div>
         </div>
-   <div id="embed_advance_form_division" class="embed_advance_form_division" >
+   <div id="fg_embed_advance_form_division" class="fg_embed_advance_form_division" >
        <h3> Paste here your tabbed code which you will get after creating form, and then click on save button. Your form will start appearing on your website.</h3>
                 <textarea rows="10" cols="125" name="embed_code" id="embed_code"><?php cf_embeded_code(); ?></textarea></br>
                 <button class="embed_code_save" id="embed_code_save"> Save </button>        
