@@ -30,28 +30,37 @@ function cf_setting_page() {?>
         </ul>
      </div><br /><br /><br />
     <div id="ifrme_division" class="iframe_division" >
-            <iframe src="http://www.formget.com/app" name="iframe" id="iframebox" width="94%" height="700px">
-            </iframe>
-            <div class="content">
+                    <div class="content">
     <p>
     <ul id="content_para">
+         <h2>Steps to create form for your website.</h2>
         <h4>
-        <li>&#9830;Step 1 :&#8594;  Create your custom form by just clicking the fields on left side of the pannel.</li> 
-        <li>&#9830;Step 2 :&#8594;  After adding respective fields on your form, click on save form button.</li>
-        <li>&#9830;Step 3 :&#8594;  A popup window will appears on screen for registration, create an account and get registered.</li>
-        <li>&#9830;Step 4 :&#8594;  The FormGet dashboard will opened.  </li>
-        <li>&#9830;Step 5 :&#8594;  Click on embed which get appear on your FormGet dashboard and get the embed code(tapped code), copy the code.</li>
-        <li>&#9830;Step 6 :&#8594;  Paste the code on embed code tab next to advance form builder at given area and then  click on save button.</li>
-       <a href="http://www.formget.com/" target="_blank"> Click here to reach FormGet.com </a>
+       
+Step 1 : Create your custom form by just clicking the fields on left side of the panel.<br /><br />
+
+Step 2 : After adding respective fields on your form, click on save form button.<br /><br />
+
+Step 3 : A popup window will appear on screen for registration, create an account and get registered.<br /><br />
+
+Step 4 : The FormGet dashboard will be opened.<br /><br />
+
+Step 5 : Click on embed from the FormGet dashboard and get the embed code for(tabbed widget), Click "Copy Code".<br /><br />
+
+Step 6 : Paste the copied code under the embed code tab next to advance form builder under your WordPress dashboard and then click on save button.<br /><br />
+
+Your Form will start to appear on your website.
         </h4>
     </ul>       
 </p>
 </div>
+            <iframe src="http://www.formget.com/app" name="iframe" id="iframebox" width="94%" height="700px">
+            </iframe>
         </div>
    <div id="fg_embed_advance_form_division" class="fg_embed_advance_form_division" >
        <h3> Paste here your tabbed code which you will get after creating form, and then click on save button. Your form will start appearing on your website.</h3>
                 <textarea rows="10" cols="125" name="embed_code" id="embed_code"><?php cf_embeded_code(); ?></textarea></br>
-                <button class="embed_code_save" id="embed_code_save"> Save </button>        
+                <button class="embed_code_save" id="embed_code_save"> Save </button><br />
+                <div class="fg_content"><h4>Note : After Saving the Embed Code above. Visit your website to see the Contact Form Tab on right.</h4></div>
         </div>
      <?php
 }
