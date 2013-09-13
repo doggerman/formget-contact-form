@@ -5,11 +5,11 @@ Requires at least: 3.5.0
 Tested up to: 3.5.1
 Stable tag: 1.0
 
-Easily build forms.Keep the form entries in an organized, scalable, secured database.Integrated environment to communicate with your customers/questioners, archive customer conversation record, make daily notes of query status.
+With FormGet Contact Form manage all your contact forms and your entire client communication at one single place.
 
 == Description ==
 
-It's a simple contact form plugin that required no effort. FormGet Contact Form  is a sophisticated and user-friendly contact form solution.
+It's a simple contact form plugin that required no effort. FormGet Contact Form  is a sophisticated and user-friendly contact form solution. 
 Full list of features:
 
 * Easy to build forms and arrange field with the help of drag and drop feature.
