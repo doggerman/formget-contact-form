@@ -44,7 +44,7 @@ This section describes how to install the plugin and get it working.
 
 == Screenshots ==
 
-1. Go to "Contact Form Builder" tab and create your form by clicking on form fields.
+ Go to "Contact Form Builder" tab and create your form by clicking on form fields.
 
 2. After creating your form, Register yourself through a registration popup. Your form is now ready for embedding on your site.
 
