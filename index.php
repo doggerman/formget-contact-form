@@ -3,11 +3,10 @@
   Plugin Name: FormGet Contact Form
   Plugin URI: http://www.formget.com
   Description: FormGet Contact Form  is a sophisticated and user-friendly contact form solution. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place. FormGet Contact Forms is a simple solution for those who need comprehensive contact forms.
-  Version: 1.0
+  Version: 1.1
   Author: FormGet
   Author URI: http://www.formget.com
  */
-
 function cf_add_style() {
     wp_enqueue_style('form1_style1_sheet1', plugins_url('css/style.css', __FILE__));
 }
@@ -81,16 +80,20 @@ function cf_setting_page() {
                             <div id="help_txt" style="width:900px;">
                                 <ol class="step_ol">
 
-                                    <li class="step_li">First go to "Form Builder" and then create your form.</li></br>
-                                    <li class="step_li">Your form is created now. In order to include it on your website, go to embed link.</br></br>
+                                    <li class="step_li">Go to "Contact Form Builder" tab and create your form by clicking on form fields.</li></br>
+                                    <li class="step_li">After creating your form, Register yourself through a registration popup. Your form is now ready for embedding on your site.</br></br>
+                                    <li class="step_li">In order to add form to your website. Click the Embed link.</br></br>
                                         <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/1.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Click on "Tabbed Widget". Now copy the code by just a single click on "Copy Code" button.</br></br>
+                                    <li class="step_li">Click on Tabbed Widget and copy the whole code by clicking on "Copy Code" button.</br></br>
                                         <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/2.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Paste the above code on "Embed Code" section which appear on left sidebar menu of "Contact Popup" dashboard.</br></br>
+                                    <li class="step_li">Paste the copied code on "Emded Code" section in the plugin which appears on the "FormGet Contact Form" plugin dashboard inside WordPress Admin area.</br></br>
                                         <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/3.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Now your contact form appear on your Website.</li>
-                                    <li class="step_li">OR You can use Wordpress shortcode directly to your page/post area and your form will start to appear.</li>
-                                </ol>
+                                    <li class="step_li">Your contact form will start to appear on your website. You can see a Contact Us Tab appearing on the right side of all your site pages.</li></br>
+                                    <li class="step_li">Alternatively you can also use the WordPress Shortcode tab under the Form Builder tab and use the code over there in your WordPress pages/posts to make the form appear on selective pages only.</li>
+                                </ol><br /><br />
+                                <b><i> If you have any issues whatsoever. Email us at: neeraga@gmail.com and We will help you out with the form integration.<br /><br/>
+                                Thanks</br>
+                                FormGet Team</i></b>
                             </div>
                         </div>
 
