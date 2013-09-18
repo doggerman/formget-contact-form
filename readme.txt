@@ -104,7 +104,7 @@ Because we host everything, when you design a form with FormGet it automatically
 * help section added
 * Bug fix: iframe
 
-=Version 1.0 =
+= Version 1.0 =
 * Initial release
 
 == Upgrade Notice ==
