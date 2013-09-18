@@ -81,15 +81,22 @@ function cf_setting_page() {
                                 <ol class="step_ol">
 
                                     <li class="step_li">Go to "Contact Form Builder" tab and create your form by clicking on form fields.</li></br>
+                                     <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/1.png', __FILE__); ?>"></div></li></br></br></br>
+                                 <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/2.png', __FILE__); ?>"></div></li></br></br></br>
                                     <li class="step_li">After creating your form, Register yourself through a registration popup. Your form is now ready for embedding on your site.</br></br>
+                                   <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/3.png', __FILE__); ?>"></div></li></br></br></br>
                                     <li class="step_li">In order to add form to your website. Click the Embed link.</br></br>
-                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/1.png', __FILE__); ?>"></div></li></br></br></br>
+                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/4.png', __FILE__); ?>"></div></li></br></br></br>
                                     <li class="step_li">Click on Tabbed Widget and copy the whole code by clicking on "Copy Code" button.</br></br>
-                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/2.png', __FILE__); ?>"></div></li></br></br></br>
+                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/5.png', __FILE__); ?>"></div></li></br></br></br>
                                     <li class="step_li">Paste the copied code on "Emded Code" section in the plugin which appears on the "FormGet Contact Form" plugin dashboard inside WordPress Admin area.</br></br>
-                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/3.png', __FILE__); ?>"></div></li></br></br></br>
+                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/6.png', __FILE__); ?>"></div></li></br></br></br>
                                     <li class="step_li">Your contact form will start to appear on your website. You can see a Contact Us Tab appearing on the right side of all your site pages.</li></br>
+                                    <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/9.png', __FILE__); ?>"></div></li></br></br></br>
                                     <li class="step_li">Alternatively you can also use the WordPress Shortcode tab under the Form Builder tab and use the code over there in your WordPress pages/posts to make the form appear on selective pages only.</li>
+                                    <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/8.png', __FILE__); ?>"></div></li></br></br></br>
+                     <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/10.png', __FILE__); ?>"></div></li></br></br></br>
+    
                                 </ol><br /><br />
                                 <b><i> If you have any issues whatsoever. Email us at: neeraga@gmail.com and We will help you out with the form integration.<br /><br/>
                                 Thanks</br>
