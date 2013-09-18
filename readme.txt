@@ -98,7 +98,7 @@ Because we host everything, when you design a form with FormGet it automatically
 * Minor improvement on help section
 * Css bug fix
 
-= version 1.1 =
+= Version 1.1 =
 * Added shortcode for page/post
 * css improved
 * help section added
