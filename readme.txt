@@ -66,7 +66,7 @@ This section describes how to install the plugin and get it working.
 
 8. Alternatively you can also use the WordPress Shortcode tab under the Form Builder tab and use the code over there in your WordPress pages/posts to make the form appear on selective pages only.
  
-10. If you have any issues whatsoever. [Contact us](http://www.formget.com/contact-us/) and We will help you out with the form integration.
+9. If you have any issues whatsoever. [Contact us](http://www.formget.com/contact-us/) and We will help you out with the form integration.
 
 
 == Frequently Asked Questions ==
