@@ -90,6 +90,10 @@ To add a new field in the contact form go to your dashboard  click on edit icon 
 
 Because we host everything, when you design a form with FormGet it automatically builds database. you can view all your entries from your dashboard of FormGet by making yourself logged in.
 
+= How can customer log their Queries? =
+
+When you create account in FormGet you automatically get support desk. Any entries submitted from FormGet form that you have embeded on your website, get automatically converted into ticket that you can get working on, from your account. FormGet Contact Form let you collect feedback and queries directlly from your website.
+
 
 
 == Changelog ==
