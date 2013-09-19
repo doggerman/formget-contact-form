@@ -1,33 +1,28 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 jQuery(document).ready(function() {
-    jQuery('.group').hide();
-	jQuery('.group:first').fadeIn();
-	jQuery('#of-nav li:first').addClass('current');
-	jQuery('#of-nav li a').click(function(evt){
-		jQuery('#of-nav li').removeClass('current');
-		jQuery(this).parent().addClass('current');
-		if(jQuery(this).attr("title")=="Embed Code"){
-			jQuery(".embed_code_save").css("display", "block");
-			jQuery(".embed_code_save").css("float", "right");
-		}
-		else{
-			jQuery(".embed_code_save").css("display", "none");
-		}
-			var clicked_group = jQuery(this).attr('href');
-			jQuery('.group').hide();
-			jQuery(clicked_group).fadeIn();
-			evt.preventDefault();
-		});
+    jQuery('li#fg_goto_fg_advance_form').click(function() {
+        jQuery('#iframebox').css({"display": "block"});
+        jQuery('div.fg_embed_advance_form_division').css({"display": "none"});
+        jQuery('.content').css({'display': 'block'});
+    });
+    jQuery('li#fg_embed_advance_form').click(function() {
+        jQuery('div.fg_embed_advance_form_division').css({"display": "block"});
+        jQuery('#iframebox').css({"display": "none"});
+        jQuery('.content').css({'display': 'none'});
+    });
     jQuery('.embed_code_save').click(function() {
-		jQuery('div#loader_img').css("display","block");
-		var text_value = jQuery('textarea#content_html').val();
-		var data = {
+        var text_value = jQuery(this).parent().children('textarea#embed_code').val();
+       var data = {
             action: 'master_response',
             value: text_value
         };
-        jQuery.post(script_call.ajaxurl, data, function(response) {
+        jQuery.post(embed_script_call.ajaxurl, data, function(response) {
             if (response) {
-                jQuery('div#loader_img').css("display", "none");
-                }
+   //alert("response");
+            }
             else {
                 alert('error');
             }
