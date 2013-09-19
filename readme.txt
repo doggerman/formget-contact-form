@@ -92,7 +92,7 @@ Because we host everything, when you design a form with FormGet it automatically
 
 = How can customer log their Queries? =
 
-When you create account in FormGet you automatically get support desk. Any entries submitted from FormGet form that you have embeded on your website, get automatically converted into ticket that you can get working on, from your account. FormGet Contact Form let you collect feedback and queries directlly from your website.
+When you create account in FormGet you automatically get support desk. All the  entries submitted from FormGet form that you have embeded on your website, get automatically converted into ticket that you can get working on, from your account. FormGet Contact Form let you collect feedback and queries directlly from your website.
 
 
 
