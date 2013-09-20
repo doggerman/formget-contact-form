@@ -9,7 +9,7 @@ With FormGet Contact Form manage all your contact forms and your entire client c
 
 == Description ==
 
-FormGet Contact Form is an eassy and effective form builder tool which enable you to bulid and embed form on your website in few steps. Select your fields, configure your options and easily embed form on your WordPress site by embeding tabbed or shortcode, no programming knowledge is required. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place while providing your customers with accountability and responsiveness they deserved.
+FormGet Contact Form is an easy and effective form builder tool which enable you to bulid and embed form on your website in few steps. Select your fields, configure your options and easily embed form on your WordPress site by embeding tabbed or shortcode, no programming knowledge is required. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place while providing your customers with accountability and responsiveness they deserved.
  
 Full list of features:
 
@@ -17,7 +17,7 @@ Full list of features:
 * Create forms in less time and few clicks.
 * Cloud storage of data with complete security.
 * Create unlimited forms on your own dashboard.
-* Javascript/iframe codes to embed form anywhere on the site.
+* JavaScript/iframe codes to embed form anywhere on the site.
 * Get the form URL and share it across the network.
 * Add multiple agents.
 * Assign different queries to different agents.
@@ -93,6 +93,14 @@ Because we host everything, when you design a form with FormGet it automatically
 = How can customer log their Queries? =
 
 When you create account in FormGet you automatically get support desk. All the  entries submitted from FormGet form that you have embeded on your website, get automatically converted into ticket that you can get working on, from your account. FormGet Contact Form let you collect feedback and queries directlly from your website.
+
+= How many ticket can be created? =
+
+Formget Contact Form provides you unlimited creation of ticket.
+
+= can I create form in other launguage? =
+
+Yes, you can creat form in any language. 
 
 
 
