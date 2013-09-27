@@ -7,7 +7,9 @@ jQuery(document).ready(function() {
 		jQuery(this).parent().addClass('current');
 		if(jQuery(this).attr("title")=="Embed Code"){
 			jQuery(".embed_code_save").css("display", "block");
-			jQuery(".embed_code_save").css("float", "right");
+			jQuery(".embed_code_save").css("float", "left");
+			jQuery(".embed_code_save").css("width", "120px");
+			jQuery(".embed_code_save").css("height", "40px");
 		}
 		else{
 			jQuery(".embed_code_save").css("display", "none");
