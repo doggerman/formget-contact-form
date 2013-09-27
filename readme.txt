@@ -3,7 +3,7 @@ Contributors: PankajAgarwal
 Tags: contact us, form, contact form plugin, easy contact form, easy contact, easy contact form solution, form solution, form builder, feedback, ticket system, ticket, support system, helpdesk
 Requires at least: 3.5.0
 Tested up to: 3.5.1
-Stable tag: 1.2
+Stable tag: 1.3
 
 With FormGet Contact Form manage all your contact forms and your entire client communication at one single place.
 
@@ -105,6 +105,10 @@ Yes, you can creat form in any language.
 
 
 == Changelog ==
+
+= Version 1.3 =
+* Support tab added to handle query related to plugin
+* Admin-notice bar added to show notice until form is created
 
 = Version 1.2 =
 * Minor improvement on help section
