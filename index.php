@@ -3,10 +3,26 @@
   Plugin Name: FormGet Contact Form
   Plugin URI: http://www.formget.com
   Description: FormGet Contact Form is an eassy and effective form builder tool which enable you to bulid and embed form on your website in few steps. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place.
-  Version: 1.2
+  Version: 1.3
   Author: FormGet
   Author URI: http://www.formget.com
  */
+function my_admin_notice() {
+	$fg_iframe_form = get_option('fg_embed_code');
+	$string = "window.onload = function()";
+        $pos = strpos($fg_iframe_form, $string);
+        if ($pos == false) {
+	?>
+    <div class="trial-notify">
+        <p>
+	<a href='<?php echo admin_url('admin.php?page=cf_page'); ?>'>Click to Create your own Advance Contact Form.</a> You can add your built form to any Page, Post, Sidebar or as a Tabbed Content.</p>
+    </div>
+    <?php
+	}}
+
+add_action( 'admin_notices', 'my_admin_notice' );
+	
+
 function cf_add_style() {
     wp_enqueue_style('form1_style1_sheet1', plugins_url('css/style.css', __FILE__));
 }
@@ -40,6 +56,7 @@ function cf_setting_page() {
                         <li> <a class="pn-view-a" href="#pn_content" title="Form Builder">Contact Form Builder </a></li>
                         <li> <a class="pn-view-a" href="#pn_displaysetting" title="Embed Code">Embed Code</a></li>
                         <li> <a class="pn-view-a" href="#pn_template" title="Help">Help</a></li>	
+						<li> <a class="pn-view-a" href="#pn_contactus" title="Help">Plugin Support</a></li>
 
                     </ul>
 
@@ -64,11 +81,16 @@ function cf_setting_page() {
                             <h3 class="heading">Paste here your tabbed code which you will get after creating form, and then click on save button. Your form will start appearing on your website.</h3>
                             <div class="option">
                                 <div class="controls">
-                                    <textarea name="content[html]" cols="60" rows="10"   class="regular-text"  id="content_html" style="width:900px"><?php echo embeded_code() ?></textarea>
-                                    <div id="loader_img" align="center" style="margin-left:460px; display:none;">
+                                    <textarea name="content[html]" cols="60" rows="10"   class="regular-text"  id="content_html" style="width:900px"><?php echo embeded_code(); ?></textarea>
+                                    
+									<input id="submit-form" class="embed_code_save button-primary" type="button" value="Save Changes" name="submit_form" style="display:none;">			
+									 <div id="loader_img" align="center" style="margin-left:460px; display:none;">
                                         <img src="<?php echo plugins_url('image/ajax-loader.gif', __FILE__); ?>">
                                     </div>
-                                </div></div>
+
+                                </div>
+								
+								</div>
                         </div>
 
                     </div>
@@ -105,6 +127,10 @@ function cf_setting_page() {
                         </div>
 
                     </div>
+					 <div class="group" id="pn_contactus">
+                      <iframe height='570' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none'  src='http://www.formget.com/app/embed/form/qQvs-639'>Your Contact </iframe>
+                      
+                    </div>	
 
                 </div>
                 <div class="clear"></div>
@@ -112,7 +138,7 @@ function cf_setting_page() {
 
             <div class="save_bar_top">
 
-                <input id="submit-form" class="embed_code_save button-primary" type="button" value="Save Changes" name="submit_form" style="display:none;">
+                
 
             </div>
 
