@@ -345,3 +345,17 @@ width: 60px;
 #of_container .section #help_txt{
     padding-left:50px;
 }
+.trial-notify{
+background-color: #fffbcc;
+border: 1px solid #e6db55;
+color: #555;
+height: 30px;
+font-size: 12px;
+text-align: left;
+margin: 5px;
+margin-top:15px;
+padding-left:8px;
+padding-bottom:3px;
+border-width: 1px;
+border-style: solid;
+}
