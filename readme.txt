@@ -9,7 +9,7 @@ With FormGet Contact Form manage all your contact forms and your entire client c
 
 == Description ==
 
-FormGet Contact Form is an easy and effective form builder tool which enable you to bulid and embed form on your website in few steps. Select your fields, configure your options and easily embed form on your WordPress site by embeding tabbed or shortcode, no programming knowledge is required. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place while providing your customers with accountability and responsiveness they deserved.
+FormGet Contact Form is an easy and effective [online contact form builder tool](http://formget.com) which enable you to bulid and embed form on your website in few steps. Select your fields, configure your options and easily embed form on your WordPress site by embeding tabbed or shortcode, no programming knowledge is required. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place while providing your customers with accountability and responsiveness they deserved.
  
 Full list of features:
 
