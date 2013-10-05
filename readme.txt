@@ -11,7 +11,7 @@ FormGet Contact Form manage all your contact forms using single dashboard. Just 
 FormGet is an easy [online drag and drop contact form builder](http://formget.com) tool. You just need to click on the fields that you want to add up on your form and your contact form get ready within a second. You can also manage your contact form by simply drag and drop the form fields.
 
 = Type of Forms Supported by Plugin =
-Contact forms, Feedback forms, Helpdesk forms,  Booking forms, Consultation services, Contact forms, Mailing list forms, Survey forms, Job application forms, Workshop registration forms, Bug tracker forms, Newsletter sign up forms, Wedding planner forms, Real estate applications forms, Invitation/RSVP add invitation to the product demo forms, Online orders forms etc.
+Contact form, Feedback form, Helpdesk form,  Booking form, Consultation service, Contact form, Mailing list form, Survey form, Job application form, Workshop registration form, Bug tracker form, Newsletter sign up form, Wedding planner form, Real estate applications form, Invitation/RSVP add invitation to the product demo form, Online orders form etc.
 
 FormGet [Contact Form](http://formget.com) is very effective contact form building tool which enable you to build and embed contact form on your website in few simple steps. Select your form fields, configure your options and easily embed contact form on your website by just a paste of Tabbed Widget code/shortcode. You donot need any programming knowledge or other skills to use this FormGet Contact Form plugin. 
 
