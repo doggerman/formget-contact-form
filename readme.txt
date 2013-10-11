@@ -145,7 +145,7 @@ When you create account in FormGet you automatically get support desk. All the e
 
 == Changelog ==
 
-= Version 1.3 =
+= Version 1.4 =
 * Admin-notice bar bug fix.
 
 = Version 1.3 =
