@@ -3,7 +3,7 @@
   Plugin Name: FormGet Contact Form
   Plugin URI: http://www.formget.com
   Description: FormGet Contact Form is an eassy and effective form builder tool which enable you to bulid and embed form on your website in few steps. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place.
-  Version: 1.3
+  Version: 1.4
   Author: FormGet
   Author URI: http://www.formget.com
  */
@@ -12,16 +12,35 @@ function my_admin_notice() {
 	$string = "sideBar";
         $pos = strpos($fg_iframe_form, $string);
         if ($pos == false) {
+		global $current_user ;
+		$user_id = $current_user->ID;
+ /* Check that the user hasn't already clicked to ignore the message */
+	 if ( ! get_user_meta($user_id, 'admin_ignore_notice') ){
 	?>
     <div class="trial-notify">
         <p>
-	<a href='<?php echo admin_url('admin.php?page=cf_page'); ?>'>Click to Create your own Advance Contact Form.</a> You can add your built form to any Page, Post, Sidebar or in any widget of your chooise or as a Tabbed Content.</p>
+	<a href='<?php echo admin_url('admin.php?page=cf_page'); ?>'>Click to Create your own Advance Contact Form.</a> You can add your built form to any Page, Post, Sidebar or as a Tabbed Content.<?php printf(__('<a class="fg_hide_notice", href="%1$s">Hide Notice</a>'), '?admin_nag_ignore=0'); ?></p>
     </div>
     <?php
-	}}
-
+	 }}}
 add_action( 'admin_notices', 'my_admin_notice' );
-	
+
+function admin_nag_ignore() {
+    global $current_user;
+        $user_id = $current_user->ID;
+        /* If user clicks to ignore the notice, add that to their user meta */
+        if ( isset($_GET['admin_nag_ignore']) && '0' == $_GET['admin_nag_ignore'] ) {
+             add_user_meta($user_id, 'admin_ignore_notice', 'true', true);
+    }
+}
+add_action('admin_init', 'admin_nag_ignore');
+
+function delete_user_entry(){
+	 global $current_user;
+        $user_id = $current_user->ID;
+delete_user_meta( $user_id, 'admin_ignore_notice', 'true', true );
+}
+register_deactivation_hook(__FILE__, 'delete_user_entry');
 
 function cf_add_style() {
     wp_enqueue_style('form1_style1_sheet1', plugins_url('css/style.css', __FILE__));
@@ -63,7 +82,7 @@ function cf_setting_page() {
                 </div>
                 <div id="content">
                     <div class="group" id="pn_content">
-                        <h2>Advance Contact Form Builder</h2>
+                        <h2>Contact Form Builder</h2>
 
                         <div class="section section-text">
                             <h3 class="heading"> Create your custom form by just clicking the fields on left side of the panel.</h3>
