@@ -3,7 +3,7 @@
   Plugin Name: FormGet Contact Form
   Plugin URI: http://www.formget.com
   Description: FormGet Contact Form is an eassy and effective form builder tool which enable you to bulid and embed form on your website in few steps. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place.
-  Version: 1.4
+  Version: 1.5
   Author: FormGet
   Author URI: http://www.formget.com
  */
@@ -17,7 +17,7 @@ function my_admin_notice() {
  /* Check that the user hasn't already clicked to ignore the message */
 	 if ( ! get_user_meta($user_id, 'admin_ignore_notice') ){
 	?>
-    <div class="trial-notify">
+    <div class="fg_trial-notify">
         <p>
 	<a href='<?php echo admin_url('admin.php?page=cf_page'); ?>'>Click to Create your own Advance Contact Form.</a> You can add your built form to any Page, Post, Sidebar or as a Tabbed Content.<?php printf(__('<a class="fg_hide_notice", href="%1$s">Hide Notice</a>'), '?admin_nag_ignore=0'); ?></p>
     </div>
@@ -56,20 +56,20 @@ function cf_menu_page() {
 
 function cf_setting_page() {
     $url = plugins_url();
-    ?><div id="of_container" class="wrap">
-        <form id="ofform" action="" method="POST">
-            <div id="header">
-                <div class="logo">
+    ?><div id="fg_of_container" class="fg_wrap">
+        <form id="fg_ofform" action="" method="POST">
+            <div id="fg_header">
+                <div class="fg_logo">
                     <h2> FormGet Contact Form</h2>
                 </div>
                 <a target="#">
-                    <div class="icon-option"> </div>
+                    <div class="fg_icon-option"> </div>
                 </a>
                 <div class="clear"></div>
             </div>
-            <div id="main">
+            <div id="fg_main">
 
-                <div id="of-nav">
+                <div id="fg_of-nav">
                     <ul>
 
                         <li> <a class="pn-view-a" href="#pn_content" title="Form Builder">Contact Form Builder </a></li>
@@ -80,12 +80,12 @@ function cf_setting_page() {
                     </ul>
 
                 </div>
-                <div id="content">
-                    <div class="group" id="pn_content">
+                <div id="fg_content">
+                    <div class="fg_group" id="pn_content">
                         <h2>Contact Form Builder</h2>
 
-                        <div class="section section-text">
-                            <h3 class="heading"> Create your custom form by just clicking the fields on left side of the panel.</h3>
+                        <div class="fg_section section-text">
+                            <h3 class="fg_heading"> Create your custom form by just clicking the fields on left side of the panel.</h3>
 
                             <iframe src="http://www.formget.com/app" name="iframe" id="iframebox" style="width:100%; height:750px; border:1px solid #dfdfdf; align:center;">
                             </iframe>
@@ -93,16 +93,16 @@ function cf_setting_page() {
 
                     </div>	
 
-                    <div class="group" id="pn_displaysetting">
+                    <div class="fg_group" id="pn_displaysetting">
                         <h2>Embed Code</h2>
 
-                        <div class="section section-text">
-                            <h3 class="heading">Paste here your tabbed code which you will get after creating form, and then click on save button. Your form will start appearing on your website.</h3>
+                        <div class="fg_section section-text">
+                            <h3 class="fg_heading">Paste here your tabbed code which you will get after creating form, and then click on save button. Your form will start appearing on your website.</h3>
                             <div class="option">
-                                <div class="controls">
-                                    <textarea name="content[html]" cols="60" rows="10"   class="regular-text"  id="content_html" style="width:900px"><?php echo embeded_code(); ?></textarea>
+                                <div class="fg_controls">
+                                    <textarea name="content[html]" cols="60" rows="10"   class="regular-text"  id="fg_content_html" style="width:900px"><?php echo embeded_code(); ?></textarea>
                                     
-									<input id="submit-form" class="embed_code_save button-primary" type="button" value="Save Changes" name="submit_form" style="display:none;">			
+									<input id="submit-form" class="fg_embed_code_save button-primary" type="button" value="Save Changes" name="submit_form" style="display:none;">			
 									 <div id="loader_img" align="center" style="margin-left:460px; display:none;">
                                         <img src="<?php echo plugins_url('image/ajax-loader.gif', __FILE__); ?>">
                                     </div>
@@ -113,10 +113,10 @@ function cf_setting_page() {
                         </div>
 
                     </div>
-                    <div class="group" id="pn_template">
+                    <div class="fg_group" id="pn_template">
                         <h2>Steps to use FormGet Contact Form Plugin</h2>
 
-                        <div class="section section-text">
+                        <div class="fg_section section-text">
                             <h3></h3>
                             <div id="help_txt" style="width:900px;">
                                 <ol class="step_ol">
@@ -146,7 +146,7 @@ function cf_setting_page() {
                         </div>
 
                     </div>
-					 <div class="group" id="pn_contactus">
+					 <div class="fg_group" id="pn_contactus">
                       <iframe height='570' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none'  src='http://www.formget.com/app/embed/form/qQvs-639'>Your Contact </iframe>
                       
                     </div>	
@@ -155,7 +155,7 @@ function cf_setting_page() {
                 <div class="clear"></div>
             </div>
 
-            <div class="save_bar_top">
+            <div class="fg_save_bar_top">
 
                 
 
