@@ -43,10 +43,12 @@ delete_user_meta( $user_id, 'admin_ignore_notice', 'true', true );
 register_deactivation_hook(__FILE__, 'delete_user_entry');
 
 function cf_add_style() {
-    wp_enqueue_style('form1_style1_sheet1', plugins_url('css/style.css', __FILE__));
+    wp_enqueue_style('form1_style1_sheet1', plugins_url('css/fgstyle.css', __FILE__));
 }
 
 add_action("init", "cf_add_style");
+
+
 //setting page
 add_action('admin_menu', 'cf_menu_page');
 
@@ -97,7 +99,7 @@ function cf_setting_page() {
                         <h2>Embed Code</h2>
 
                         <div class="fg_section section-text">
-                            <h3 class="fg_heading">Paste here your tabbed code which you will get after creating form, and then click on save button. Your form will start appearing on your website.</h3>
+                            <h3 class="fg_heading">Embed code field will only accept code for tabbed widgets. Please do not place shortcode here. </h3>
                             <div class="option">
                                 <div class="fg_controls">
                                     <textarea name="content[html]" cols="60" rows="10"   class="regular-text"  id="fg_content_html" style="width:900px"><?php echo embeded_code(); ?></textarea>
@@ -121,27 +123,38 @@ function cf_setting_page() {
                             <div id="help_txt" style="width:900px;">
                                 <ol class="step_ol">
 
-                                    <li class="step_li">Go to "Contact Form Builder" tab and create your form by clicking on form fields.</li></br>
-                                     <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/1.png', __FILE__); ?>"></div></li></br></br></br>
-                                 <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/2.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">After creating your form, Register yourself through a registration popup. Your form is now ready for embedding on your site.</br></br>
-                                   <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/3.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">In order to add form to your website. Click the Embed link.</br></br>
-                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/4.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Click on Tabbed Widget and copy the whole code by clicking on "Copy Code" button.</br></br>
-                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/5.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Paste the copied code on "Emded Code" section in the plugin which appears on the "FormGet Contact Form" plugin dashboard inside WordPress Admin area.</br></br>
-                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/6.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Your contact form will start to appear on your website. You can see a Contact Us Tab appearing on the right side of all your site pages.</li></br>
-                                    <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/9.png', __FILE__); ?>"></div></li></br></br></br>
-                                    <li class="step_li">Alternatively you can also use the WordPress Shortcode tab under the Form Builder tab and use the code over there in your WordPress pages/posts to make the form appear on selective pages only.</li>
-                                    <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/8.png', __FILE__); ?>"></div></li></br></br></br>
-                     <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/10.png', __FILE__); ?>"></div></li></br></br></br>
-    
-                                </ol><br /><br />
-                                <b><i> If you have any issues whatsoever. Email us at: neeraga@gmail.com and We will help you out with the form integration.<br /><br/>
-                                Thanks</br>
-                                FormGet Team</i></b>
+                                    <li class="step_li">Just sign up yourself and start creating your contact form for your website. </li></br></br>
+                                     <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/sign_up.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">Click on the fields and create your contact form</br></br></br>
+                                   <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Sign_Up_and_Create_Your_Form.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">To rename the form in your own text, click on the tab field. You can make fields required if you want, just check mark the box. At last save your changes.</br></br></br>
+                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Rename the Contact Form.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">To embed the form on your website click on Embed option.</br></br></br>
+                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Embed the form.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">Copy the code for tabbed widget.</br></br></br>
+                                        <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Copy the code.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">Paste the copied embed code in the Embed Code section. At last save your changes.</li></br></br>
+									<p><b>NOTE:- Only tabbed widget code can be placed in Embed Code field. 
+</b></p></br>
+                                    <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Paste the code.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">This is how the tabbed widget will look on your website.</li></br></br>
+                                    <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Tabbed_Widget_On_Website.png', __FILE__); ?>"></div></li></br></br></br>
+                     
+					                                 
+                                    <li class="step_li">To display your Contact Form individually on pages, post, widgets and sidebar, just copy the code from the WordPress shortcode field.</li></br></br>
+									                                  <div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Copy_the_code.png', __FILE__); ?>"></div></li></br></br></br>
+                                    <li class="step_li">Paste the copied code either of the above options. Like I just paste it in a page.</li></br></br>
+									<p><b>NOTE:- Remember shortcodes are made to show your contact form on individual pages/posts/siderbar/footer. Do not put your code in Embed Code field. It will not work.
+</b></p></br>
+									<div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Shortcode For Page.png', __FILE__); ?>"></div></li></br></br></br>
+									<li class="step_li">This is how your Contact Form will appear on website's page through shortcode.</li></br></br>
+									<div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Contact Form through shortcode.jpg', __FILE__); ?>"></div></li></br></br></br>
+									<li class="step_li">If you have any issues or need any help you can just click on Plugin Support section and submit your query.</li></br></br>
+									                                  
+                              
+								<div id="step_img" style="width:963px; border: 1px solid #dfdfdf;"><img src="<?php echo plugins_url('image/Plugin_Support.png', __FILE__); ?>"></div></li></br></br></br>
+                              <div style="font-size:15px;"> <b> Thanks,</br></br>
+                                FormGet Team</i></b></div>
                             </div>
                         </div>
 
@@ -168,17 +181,19 @@ function cf_setting_page() {
     <?php
 }
 
-//embed code 
 function cf_embeded_script() {
-    wp_enqueue_script('embeded_script', plugins_url('js/script.js', __FILE__), array('jquery'));
+    wp_enqueue_script('embeded_script', plugins_url('js/fg_script.js', __FILE__), array('jquery'));
     wp_localize_script('embeded_script', 'script_call', array('ajaxurl' => admin_url('admin-ajax.php')));
 }
-
+if($_GET['page']=='cf_page'){
 add_action('init', 'cf_embeded_script');
+}
 
 function cf_text_ajax_process_request() {
     $text_value = $_POST['value'];
     update_option('fg_embed_code', $text_value);
+	echo 1;
+	die();
 }
 
 add_action('wp_ajax_master_response', 'cf_text_ajax_process_request');
