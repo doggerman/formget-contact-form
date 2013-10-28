@@ -31,7 +31,8 @@ jQuery(document).ready(function() {
                 jQuery('div#loader_img').css("display", "none");
                 }
             else {
-                alert('error');
+                
+				jQuery('div#loader_img').css("display", "none");
             }
         });
     });
