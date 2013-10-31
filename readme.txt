@@ -93,30 +93,7 @@ This section describes how to install the plugin and get it working.
 
 == Screenshots ==
 
-1. Click on the fields and create your contact form.
-
-2. To rename the form in your own text, click on the tab field. You can make fields required if you want, just check mark the box. At last save your changes.
-
-3. If you are already a registed member on FormGet then log in with your credentials to view your form or sign up yourself.
-
-4. Now you can embed your Contact Form on your website.
-
-5. To embed the form on your website click on Embed option. 
-
-6. Copy the code for tabbed widget. 
-
-7. Paste the copied embed code in the Embed Code section. At last save your changes.
-
-8. This is how the tabbed widget will look on your website.
- 
-9. To display your Contact Form individually on pages, post, widgets and sidebar, just copy the code from the WordPress shortcode field.
-
-10. Paste the copied code either of the above options. Like I just paste it in a page.
-
-11. This is how your Contact Form will appear on website's page through shortcode.
-
-12. If you have any issues or need any help you can just click on Plugin Support section and submit your query.
-
+1. Screenshots
 
 == Frequently Asked Questions ==
 
