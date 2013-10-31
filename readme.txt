@@ -151,8 +151,11 @@ When you create account in FormGet you automatically get support desk. All the e
 
 == Changelog ==
 
+= Version 1.6 =
+* Admin-panel CSS bug fixed.
+
 = Version 1.5 =
-*CSS bug fixed.
+* CSS bug fixed.
 
 = Version 1.4 =
 * Admin notice will only be appear on when FormGet contact form installed or reactivated. Once user activate the dismiss admin notice, Notice disappear permanently.  
