@@ -71,6 +71,10 @@ FormGet Contact Form plugin implemented with a helpdesk system which enable you 
 * Data stored using entries are regularly backup and restored on cloud servers.
 * Allow to enable form fields compulsary using avaliable Required option.
 
+Learn more about our FormGet Contact Form.
+
+[vimeo http://player.vimeo.com/video/82441121]
+
 = FormGet Contact Form Demo & User Guide =
 * See demo for [Tabbed code form](http://www.formget.com/).
 * See demo for [contact form on any page or post](http://www.formget.com/contact-us/).
