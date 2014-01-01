@@ -73,7 +73,7 @@ FormGet Contact Form plugin implemented with a helpdesk system which enable you 
 
 Learn more about our FormGet Contact Form.
 
-[vimeo http://player.vimeo.com/video/82441121]
+http://www.youtube.com/channel/UCjejLUldlgcPrv1qbiOPOKg
 
 = FormGet Contact Form Demo & User Guide =
 * See demo for [Tabbed code form](http://www.formget.com/).
