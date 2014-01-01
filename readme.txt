@@ -22,6 +22,9 @@ Name, Email, Contact Number, Message, Payment(Integrated with PayPal), Date (sup
 
 FormGet Contact Form plugin implemented with a helpdesk system which enable you to give full support to your customers. For that, you can easily add agents to manage your multiple contact forms and also leave a quick reply for every entry.
 
+http://www.youtube.com/channel/UCjejLUldlgcPrv1qbiOPOKg
+
+
 = Full list of Features =
 
 * Online contact form builder.
@@ -71,9 +74,6 @@ FormGet Contact Form plugin implemented with a helpdesk system which enable you 
 * Data stored using entries are regularly backup and restored on cloud servers.
 * Allow to enable form fields compulsary using avaliable Required option.
 
-Learn more about our FormGet Contact Form.
-
-http://www.youtube.com/channel/UCjejLUldlgcPrv1qbiOPOKg
 
 = FormGet Contact Form Demo & User Guide =
 * See demo for [Tabbed code form](http://www.formget.com/).
