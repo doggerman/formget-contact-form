@@ -3,7 +3,7 @@ Contributors: PankajAgarwal
 Tags: contact form, contact, form, forms, contact form plugin, contact form builder, contact form with recaptcha, feedback form, contact us, request form, contact button, drag and drop contact form, file upload contact form, contact form to email, contact form payments, contact for paypal, form solution, form builder, feedback, easy contact form, helpdesk
 Requires at least: 3.5.0
 Tested up to: 3.5.1
-Stable tag: 2.0
+Stable tag: 2.1
 
 FormGet Contact Form manage all your contact forms using single dashboard. Just a click on fields and your contact form is ready for use.
 
@@ -22,7 +22,8 @@ Name, Email, Contact Number, Message, Payment(Integrated with PayPal), Date (sup
 
 FormGet Contact Form plugin implemented with a helpdesk system which enable you to give full support to your customers. For that, you can easily add agents to manage your multiple contact forms and also leave a quick reply for every entry.
 
-http://www.youtube.com/channel/UCjejLUldlgcPrv1qbiOPOKg
+
+http://www.youtube.com/watch?v=UGlMoOGyDvo
 
 
 = Full list of Features =
@@ -131,6 +132,9 @@ When you create account in FormGet you automatically get support desk. All the e
 
 
 == Changelog ==
+
+= Version 2.1 =
+* Video added in readme.txt
 
 = Version 2.0 =
 * Iframe bug fixed.
