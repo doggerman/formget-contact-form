@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 	
 	jQuery('div#fg_video_getting_started').click(function(){
 		jQuery('div#fg_videoContainer').css({"display": "block"});
-			autoPlayVideo('83909839','700','400');		
+			autoPlayVideo('84023688','700','400');		
 });
 	
 
