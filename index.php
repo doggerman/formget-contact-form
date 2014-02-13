@@ -124,7 +124,7 @@ We have created a simple video for using the FormGet WordPress Plugin.
                             <h3 class="fg_heading"> Create your custom form by just clicking the fields on left side of the panel. And then paste the form code in embed code section.</h3>
                             <div class="outer_iframe_div" id="outer_iframe_div">
                                 <div class="inner_iframe_div" id="inner_iframe_div" >
-                                    <iframe src="http://www.formget.com/app/login" name="iframe" id="iframebox" style="width:100%; height:900px; border:1px solid #dfdfdf;  align:center; overflow-y:scroll;" >
+                                    <iframe src="http://www.formget.com/app" name="iframe" id="iframebox" style="width:100%; height:900px; border:1px solid #dfdfdf;  align:center; overflow-y:scroll;" >
                                     </iframe>
                                 </div>
                             </div>
