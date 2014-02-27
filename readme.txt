@@ -1,4 +1,4 @@
-=== FormGet Contact Form ===
+﻿=== FormGet Contact Form ===
 Contributors: PankajAgarwal
 Tags: contact form, contact, form, forms, contact form plugin, contact form builder, contact form with recaptcha, feedback form, contact us, request form, contact button, drag and drop contact form, file upload contact form, contact form to email, contact form payments, contact for paypal, form solution, form builder, feedback, easy contact form, helpdesk
 Requires at least: 3.5.0
@@ -44,6 +44,7 @@ FormGet Contact Form plugin implemented with a helpdesk system which enable you 
 > 
 
 > **Our Plans** 
+>
 > * FormGet Pricing Plans, choose the one that suits you best [Upgrade to Pro](http://www.formget.com/app/pricing)
 > 
 >
