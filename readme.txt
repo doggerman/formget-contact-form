@@ -39,13 +39,13 @@ FormGet Contact Form plugin implemented with a helpdesk system which enable you 
 
 > **FormGet Video Tutorials** 
 > 
-> * So to learn about FormGet from the beginning, FormGet have come up with the [video tutorial](http://www.formget.com/formget-video-tutorials-guide/) series
+> * So to learn about FormGet from the beginning, FormGet have come up with the [video tutorial](http://www.formget.com/formget-video-tutorials-guide/) series.
 > 
 > 
 
 > **Our Plans** 
 >
-> * FormGet Pricing Plans, choose the one that suits you best [Upgrade to Pro](http://www.formget.com/app/pricing)
+> * [FormGet Pricing Plans](http://www.formget.com/app/pricing), choose the one that suits you best.
 > 
 >
 
