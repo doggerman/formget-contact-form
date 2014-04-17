@@ -280,7 +280,7 @@ if (!function_exists('embeded_code')) {
 }
 
 if (!is_admin()) {
-    add_action('wp_head', 'embeded_code');
+    add_action('wp_footer', 'embeded_code');
 }
 //schort code function
 if (!function_exists('formget_shortcode')) {
