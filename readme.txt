@@ -166,7 +166,7 @@ When you create account in FormGet you automatically get support desk. All the e
 == Changelog ==
 
 = Version 4.7 =
-* Security Issue Patched. Thanks to James H from g0blin.co.uk.
+* Security Issue Patched. Thanks to James H from g0blin.co.uk
 
 = Version 4.6 =
 * Contact us link added in Help page.
