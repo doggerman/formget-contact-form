@@ -289,7 +289,7 @@ function cf_setting_page() {
 
 function cf_embeded_script() {
     wp_enqueue_script('embeded_script', plugins_url('js/fg_script.js', __FILE__), array('jquery'));
-    wp_localize_script('embeded_script', 'script_call', array('ajaxurl' => admin_url('admin-ajax.php')));
+  
 }
 
 if (isset($_GET['page']) == 'cf_page') {
