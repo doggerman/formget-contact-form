@@ -3,7 +3,7 @@
   Plugin Name: FormGet Contact Form
   Plugin URI: http://www.formget.com
   Description: FormGet Contact Form is an eassy and effective form builder tool which enable you to bulid and embed form on your website in few steps. With FormGet Contact Form manage all your contact forms and your entire client communication at one single place.
-  Version: 5.3.1
+  Version: 5.3.2
   Author: FormGet
   Author URI: http://www.formget.com
  */
@@ -98,7 +98,19 @@ function extension_list() {
         array('img_path'=>plugins_url("image/email.png", __FILE__),
                'ext_title'=>'Email Notification',
                'ext_desc'=>'With this extension whenever a user fills out the form you will recieve an email notification notifying you about the form submission. This way you wont miss any of the form entries.',
-                'ext_url'=>'http://www.formget.com/app/single_extension/pricing/notification-emailnotification')     
+                'ext_url'=>'http://www.formget.com/app/single_extension/pricing/notification-emailnotification'),
+	array('img_path'=>plugins_url("image/mailc.jpg", __FILE__),
+               'ext_title'=>'MailChimp',
+               'ext_desc'=>'The MailChimp Extension helps you to store form messages on MailChimp mailing list. Thus help in collecting leads.',
+                'ext_url'=>'http://www.formget.com/app/single_extension/pricing/thirdparty-mailchimp'),
+	array('img_path'=>plugins_url("image/aweber.jpg", __FILE__),
+               'ext_title'=>'Aweber',
+               'ext_desc'=>'The Aweber Extension helps you to store your collected leads through forms on your Aweber mailing list.',
+                'ext_url'=>'http://www.formget.com/app/single_extension/pricing/thirdparty-aweber'),
+	array('img_path'=>plugins_url("image/logical.jpg", __FILE__),
+               'ext_title'=>'Logical Forms',
+               'ext_desc'=>'The Logical Forms Extension helps you to create form with condition logics that apply to form fields.',
+                'ext_url'=>'http://www.formget.com/app/single_extension/pricing/formcapabilities-logicalforms')        
     );
     $list='';
     foreach($extensions as $extension){
